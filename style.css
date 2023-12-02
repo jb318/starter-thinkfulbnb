@@ -120,12 +120,13 @@ footer p {
 
 /* -------  Media Query ------- */
 @media all and (min-width: 800px) {
-  .logo {
-    align-items: left;
-    display: inline-block;
+  .desktop-head {
+    display: flex;
+    justify-content: space-between;
   }
-  .item {
-    align-items: right;
-    display: inline-block;
+  .group {
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
   }
 }
