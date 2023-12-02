@@ -117,3 +117,9 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+@media all and(min-width: 600px) {
+  header {
+    background-color: #777;
+    
+  }
+}
