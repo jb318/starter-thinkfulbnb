@@ -33,7 +33,11 @@ section.alternate-background {
 main img {
   width: 100px;
 }
-
+.fit {
+  width: 360px;
+  height: 200px;
+  
+}
 /* ---  Groups & Items --- */
 
 .group {
@@ -105,7 +109,10 @@ form button {
   padding: 15px;
   width: 100%;
 }
-
+.search-item {
+  display: flex;
+  justify-content: space-between;
+}
 /* -------  Footer ------- */
 
 footer {
@@ -119,14 +126,31 @@ footer p {
 }
 
 /* -------  Media Query ------- */
-@media all and (min-width: 800px) {
-  .desktop-head {
+@media all and (min-width: 768px) {
+  .container {
     display: flex;
     justify-content: space-between;
   }
   .group {
-    align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     font-size: 24px;
+  }
+  .search-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-about {
+    display: flex;
+    height: 240px
+  }
+  .about-img {
+    flex: 1;
+  }
+  .about-paragraph {
+    flex: 2;
+  }
+  .fit {
+    height: 200px;
+    width: 360px;
   }
 }
