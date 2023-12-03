@@ -36,7 +36,7 @@ main img {
 .fit {
   width: 360px;
   height: 200px;
-  
+
 }
 /* ---  Groups & Items --- */
 
@@ -139,7 +139,7 @@ footer p {
     display: flex;
     flex-direction: column;
   }
-  .about-img {
+  .img {
     flex: 1;
   }
   .about-paragraph {
@@ -147,6 +147,11 @@ footer p {
     align-self: center;
   }
   .fit {
-    width: 90%;
+    width: 95%;
+    height: 95%;
+  }
+  .host-paragraph {
+    flex: 1;
+    align-self: center;
   }
 }
