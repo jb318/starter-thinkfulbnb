@@ -139,18 +139,14 @@ footer p {
     display: flex;
     flex-direction: column;
   }
-  .container-about {
-    display: flex;
-    height: 240px
-  }
   .about-img {
     flex: 1;
   }
   .about-paragraph {
     flex: 2;
+    align-self: center;
   }
   .fit {
-    height: 200px;
-    width: 360px;
+    width: 90%;
   }
 }
