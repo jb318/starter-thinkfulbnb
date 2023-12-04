@@ -127,6 +127,11 @@ footer p {
 
 /* -------  Media Query ------- */
 @media all and (min-width: 768px) {
+  .form-container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+  }
   .container {
     display: flex;
     justify-content: space-between;
@@ -149,6 +154,10 @@ footer p {
   .fit {
     width: 95%;
     height: 95%;
+  }
+  .ideas-container {
+    display: flex;
+    margin-bottom: 25px;
   }
   .host-paragraph {
     flex: 1;
